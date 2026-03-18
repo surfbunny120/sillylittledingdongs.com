@@ -14,7 +14,7 @@ banner: "/assets/images/banner.png"
 # Listen links
 listen:
   - title: "Apple Podcasts"
-    url: "#"
+    url: "https://podcasts.apple.com/us/podcast/silly-little-ding-dongs/id1732929956"
   - title: "Spotify Podcasts"
     url: "#"
 
