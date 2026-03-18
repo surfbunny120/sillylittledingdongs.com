@@ -1,0 +1,14 @@
+title: "Silly Little Ding Dongs"
+description: "A bright idea, coming soon."
+url: "https://sillylittledingdongs.com"
+baseurl: "/sillylittledingdongs.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
