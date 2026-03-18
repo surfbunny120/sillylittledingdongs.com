@@ -6,15 +6,11 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  background: #3858e9;
-  color: #fff;
+  font-family: 'Times New Roman', Georgia, serif;
+  background: #FDFF00;
+  color: #111;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 main {
@@ -22,31 +18,103 @@ main {
 }
 
 .container {
-  max-width: 560px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 60px 24px 80px;
-  text-align: center;
 }
 
-.site-title {
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-  line-height: 1.2;
+/* Banner */
+.banner {
+  margin-bottom: 40px;
 }
 
+.banner img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+/* Tagline */
 .tagline {
-  font-size: 1.2rem;
-  opacity: 0.85;
+  font-size: 1.4rem;
+  color: #111;
+  margin-bottom: 60px;
   line-height: 1.7;
 }
 
+/* Section headings */
+h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Listen buttons */
+.listen {
+  margin-bottom: 60px;
+}
+
+.link-block {
+  display: block;
+  padding: 18px 20px;
+  margin-bottom: 10px;
+  border: 1.5px solid #111;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #111;
+  font-size: 1.15rem;
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.link-block:hover {
+  background: #111;
+  color: #FDFF00;
+  border-color: #111;
+  transform: translateY(-1px);
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #111;
+}
+
+.site-footer p {
+  margin-bottom: 4px;
+}
+
+.credit-link {
+  color: #071EF6;
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+.credit-link:hover {
+  color: #FC00F9;
+}
+
+/* Responsive */
 @media (min-width: 768px) {
-  .site-title {
-    font-size: 3rem;
+  .container {
+    max-width: 700px;
+    padding: 80px 24px 100px;
   }
 
   .tagline {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 750px;
+    padding: 100px 24px 120px;
   }
 }

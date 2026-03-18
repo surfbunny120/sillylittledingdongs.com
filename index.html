@@ -3,6 +3,23 @@ layout: default
 ---
 
 <div class="container">
-  <h1 class="site-title">{{ site.title }}</h1>
+  <div class="banner">
+    <img src="{{ site.banner | relative_url }}" alt="{{ site.title }}">
+  </div>
+
   <p class="tagline">{{ site.description }}</p>
+
+  <section class="listen">
+    <h2>Listen Now</h2>
+    {% for link in site.listen %}
+    <a href="{{ link.url }}" class="link-block" target="_blank" rel="noopener">
+      {{ link.title }}
+    </a>
+    {% endfor %}
+  </section>
+
+  <footer class="site-footer">
+    <p>Silly little ding dongs is a project by</p>
+    <a href="https://llcprojects.com" class="credit-link">Lisa Lorraine Carson</a>
+  </footer>
 </div>

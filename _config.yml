@@ -1,5 +1,5 @@
 title: "Silly Little Ding Dongs"
-description: "A bright idea, coming soon."
+description: "is a very unserious podcast about everything that makes Lisa Lorraine Carson catatonic with delight."
 url: "https://sillylittledingdongs.com"
 baseurl: "/sillylittledingdongs.com"
 
@@ -7,6 +7,16 @@ baseurl: "/sillylittledingdongs.com"
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+
+# Banner image
+banner: "/assets/images/banner.png"
+
+# Listen links
+listen:
+  - title: "Apple Podcasts"
+    url: "#"
+  - title: "Spotify Podcasts"
+    url: "#"
 
 exclude:
   - Gemfile
