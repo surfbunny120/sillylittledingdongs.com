@@ -16,7 +16,7 @@ listen:
   - title: "Apple Podcasts"
     url: "https://podcasts.apple.com/us/podcast/silly-little-ding-dongs/id1732929956"
   - title: "Spotify Podcasts"
-    url: "#"
+    url: "https://open.spotify.com/show/0HXu5eCPoAJwH6YMfkKN2f"
 
 exclude:
   - Gemfile
